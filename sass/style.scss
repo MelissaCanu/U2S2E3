@@ -12,7 +12,7 @@ body {
 }
 
 .headline {
-  @include center-element;
+  @include space-evenly;
 }
 
 .hero {

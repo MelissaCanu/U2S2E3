@@ -4,6 +4,12 @@
   align-items: center;
 }
 
+@mixin space-evenly {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 @mixin transition($property: all, $duration: 0.3s, $timing-function: ease) {
   transition: $property $duration $timing-function;
 }
