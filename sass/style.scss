@@ -10,3 +10,20 @@
 body {
   font-family: $main-font-family;
 }
+
+.hero {
+  display: flex;
+  align-items: center;
+  padding: $spacing-md;
+
+  img {
+    max-width: 300px;
+    margin-right: $spacing-lg;
+  }
+
+  .hero-text {
+    h2 {
+      font-size: $font-size-lg;
+    }
+  }
+}
