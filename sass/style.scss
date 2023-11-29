@@ -11,9 +11,12 @@ body {
   font-family: $main-font-family;
 }
 
+.headline {
+  @include center-element;
+}
+
 .hero {
-  display: flex;
-  align-items: center;
+  @include center-element;
   padding: $spacing-md;
 
   img {
@@ -24,6 +27,9 @@ body {
   .hero-text {
     h2 {
       font-size: $font-size-lg;
+    }
+    p {
+      font-size: $font-size-md;
     }
   }
 }

@@ -45,4 +45,27 @@ ul {
 /* -------------------------------------- */
 body {
   font-family: "Georgia", serif;
+}
+
+.headline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.hero img {
+  max-width: 300px;
+  margin-right: 30px;
+}
+.hero .hero-text h2 {
+  font-size: 30px;
+}
+.hero .hero-text p {
+  font-size: 16px;
 }/*# sourceMappingURL=style.css.map */
