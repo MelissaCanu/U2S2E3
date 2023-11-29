@@ -1,0 +1,12 @@
+@import "./partials/reset.scss";
+@import "./partials/colori.scss";
+@import "./partials/font.scss";
+@import "./partials/spaziature.scss";
+@import "./partials/bottoni.scss";
+@import "./partials/mixins-generici.scss";
+@import "./partials/animazioni.scss";
+/* -------------------------------------- */
+
+body {
+  font-family: $main-font-family;
+}

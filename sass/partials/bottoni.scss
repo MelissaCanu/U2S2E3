@@ -1,0 +1,21 @@
+.button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button-1 {
+  background-color: $button-color-1;
+  color: $text-color;
+}
+
+.button-2 {
+  background-color: $button-color-2;
+  color: $text-color;
+}
+
+.button-3 {
+  background-color: $button-color-3;
+  color: $text-color;
+}

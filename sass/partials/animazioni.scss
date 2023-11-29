@@ -1,0 +1,8 @@
+.animation-fade-in {
+  opacity: 0;
+  @include transition(opacity);
+
+  &.visible {
+    opacity: 1;
+  }
+}

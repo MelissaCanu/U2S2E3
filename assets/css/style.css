@@ -1,0 +1,48 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* testo */
+/* bottoni */
+/* dimensioni font */
+.button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button-1 {
+  background-color: #0e6cff;
+  color: #f4f4f4;
+}
+
+.button-2 {
+  background-color: #ff8700;
+  color: #f4f4f4;
+}
+
+.button-3 {
+  background-color: #4caf50;
+  color: #f4f4f4;
+}
+
+.animation-fade-in {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.animation-fade-in.visible {
+  opacity: 1;
+}
+
+/* -------------------------------------- */
+body {
+  font-family: "Georgia", serif;
+}/*# sourceMappingURL=style.css.map */
